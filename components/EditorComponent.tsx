@@ -95,21 +95,21 @@ export default function EditorComponent() {
               <br />
               <h2>Example 1:</h2>
               <blockquote className="border-l-4 border-gray-500 pl-4 italic text-gray-400">
-                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = "abcd"</code></p>
+                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = &quot;abcd&quot;</code></p>
                 <p>Output: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">0</code></p>
                 <p>Explanation: There is no repeating substring.</p>
               </blockquote>
               <br />
               <h2>Example 2:</h2>
               <blockquote className="border-l-4 border-gray-500 pl-4 italic text-gray-400">
-                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = "abbaba"</code></p>
+                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = &quot;abbaba&quot;</code></p>
                 <p>Output: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">2</code></p>
-                <p>Explanation: The longest repeating substrings are "ab" and "ba", each of which occurs twice.</p>
+                <p>Explanation: The longest repeating substrings are &quot;ab&quot; and &quot;ba&quot;, each of which occurs twice.</p>
               </blockquote>
               <br />
               <h2>Example 3:</h2>
               <blockquote className="border-l-4 border-gray-500 pl-4 italic text-gray-400">
-                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = "aabcaabdaab"</code></p>
+                <p>Input: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">s = &quot;aabcaabdaab&quot;</code></p>
                 <p>Output: <code className="bg-gray-200 text-gray-800 rounded-md px-1 font-mono">3</code></p>
                 <p>Explanation: There is no repeating substring.</p>
               </blockquote>

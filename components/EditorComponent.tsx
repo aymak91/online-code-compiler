@@ -71,7 +71,8 @@ export default function EditorComponent() {
   }
 
   return (
-    <div className="h-[calc(100vh-4rem)] dark:bg-slate-900 rounded-2xl shadow-2xl py-2 px-8">
+    <div className="">
+    {/* <div className="h-[calc(100vh-4rem)] dark:bg-slate-900 rounded-2xl shadow-2xl py-2 px-8"> */}
       {/* EDITOR HEADER */}
       <div className="flex items-center justify-between pb-3">
         <h2 className="scroll-m-20 text-2xl font-semibold tracking-tight first:mt-0">Dijkstra</h2>
